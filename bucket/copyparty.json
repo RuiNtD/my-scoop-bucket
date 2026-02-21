@@ -1,0 +1,13 @@
+{
+    "version": "1.20.7",
+    "description": "Portable file server with accelerated resumable uploads, dedup, WebDAV, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file, no deps.",
+    "homepage": "https://github.com/9001/copyparty",
+    "license": "MIT",
+    "url": "https://github.com/9001/copyparty/releases/download/v1.20.7/copyparty-sfx.py",
+    "hash": "bc4162f3d4fa5759401502cfa0651acc90bdc710900ec6f2e3628cefa33c928e",
+    "bin": [["copyparty-sfx.py", "copyparty"]],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/9001/copyparty/releases/download/v$version/copyparty-sfx.py"
+    }
+}
